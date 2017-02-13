@@ -1,0 +1,6 @@
+{
+	"body" : {
+		"query":"query App {\n  viewer {\n    id,\n    ...F0\n  }\n}\nfragment F0 on User {\n  name,\n  id\n}",
+		"variables":{}
+	}
+}
